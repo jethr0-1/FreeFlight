@@ -9,8 +9,8 @@ echo '###       ###    ##########################       ########################
 
 echo ''
 echo 'Select from options below'
-echo '1. Search aircraft registration        2. Search flight number'
-echo '3. Get flight history                  4. Exit'
+echo '1. Search aircraft registration        2. Search flight number (not active)'
+echo '3. Get flight history (not active)     4. Exit'
 echo ''
 printf 'Selection: '
 read -r selection
