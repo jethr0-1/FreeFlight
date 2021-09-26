@@ -1,5 +1,3 @@
-  GNU nano 3.2                                                                   freeflight.sh                                                                              
-
 clear
 echo '      ::::::::::::::::::: :::::::::::::::::::::::::::::::::       ::::::::::::::::::: :::    :::::::::::::: '
 echo '     :+:       :+:    :+::+:       :+:       :+:       :+:           :+:   :+:    :+::+:    :+:    :+:      '
@@ -20,8 +18,8 @@ if [ "$selection" = "1" ]; then
         echo 'Selected option 1.'
         bash ./modules/aircraft-registration.sh
 elif [ "$selection" = "2" ]; then
-        echo 'This module is not currently active, sorry.'
-        exit 1
+        echo 'Selected option 2.'
+        bash ./modules/trackflight.sh
 elif [ "$selection" = "3" ]; then
         echo 'Selected option 3.'
         bash ./modules/install.sh
